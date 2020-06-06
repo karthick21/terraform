@@ -2,8 +2,8 @@
 
 language: generic
 
-install:
-  - gem install bundler jekyll
-
-script:
-  - build.sh
+deploy:
+	provider: script
+	script: bash build.sh
+	on:
+    	branch: master
