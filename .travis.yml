@@ -6,4 +6,4 @@ install:
   - gem install bundler jekyll
 
 script:
-  - /root/terraform/build.sh
+  - sh /root/terraform/build.sh
