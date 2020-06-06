@@ -4,6 +4,6 @@ language: generic
 
 deploy:
 	provider: script
-	script: bash build.sh
+	script: build.sh
 	on:
     	branch: master
