@@ -3,7 +3,7 @@
 language: generic
 
 deploy:
-	provider: script
-	script: /root/terraform/build.sh
-	on:
-    	branch: master
+  provider: script
+  script: /root/terraform/build.sh
+  on:
+  branch: master
